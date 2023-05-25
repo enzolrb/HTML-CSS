@@ -1,0 +1,133 @@
+/*Google fonts police d'écriture*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+/*Palette de couleur*/
+/*https://mybrandnewlogo.com/fr/generateur-de-palette-de-couleurs*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*Pour une image de fond
+    /* background-image: url('./images/lait.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Classes*/
+
+.briqueIMG{
+    max-width: 100%;
+    height: auto;
+}
+
+.aimer{
+    /*Espaces des marges a l'intérieur de la div*/
+    padding: 20px;
+
+    /*Espaces des marges a l'extérieur de la div*/
+    margin: 60px;
+
+    /*Pareil pour le margin*/
+    /*Haut et bas pour 20px et droites gauches pour 15px*/
+    /* padding: 20px 15px; */
+
+    /*Haut pour 20px et droites gauches pour 15px et bas pour 50px*/
+    /* padding: 20px 15px 50px; */
+
+    /*Haut pour 20px droite 15px gauches 30px pour 15px et bas pour 50px*/
+    /* padding: 20px 15px 50px 30px; */
+
+    
+}
+
+.aimer h1{
+    /*Couleur du texte*/
+    color: #c3a5fe;
+    /*Type de la police*/
+    /*Gras de la police*/
+    font-weight: 400;
+
+    /*Taille de la police d'écriture em /px et rem*/
+    font-size: 3em;
+    text-align: center;
+}
+
+.style-none li a{
+    /*Enleve la decoration du texte*/
+    text-decoration: none;
+
+    /*Enleve les points de la liste*/
+    list-style: none;
+}
+
+.box{
+    background-color: #c3a5fe;
+    width: 500px;
+    height: 600px;
+    margin: 20px;
+    padding: 90px;
+
+    /*border*/
+    /* border: 12px solid red; */
+    border-radius: 20px;
+}
+
+#box-2{
+    background-color: red;
+    width: 500px;
+    height: 600px;
+    margin: 20px;
+    padding: 90px;
+    border-radius: 20px;
+}
+
+.img-round{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bk-img{
+    width: 300px;
+}
+
+/* .parent-position{
+    position: relative;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.enfant-position{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transform: translate(-50%, -50%);
+} */
+
+
+
+.btn{
+    width: 200px;
+    border: none;
+    background-color: #90344b;
+    color: white;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 100px;
+}
+
+.btn:hover{
+    background-color: #c85054;
+    transition: all 0.5s ease;
+}
